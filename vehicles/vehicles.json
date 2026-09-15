@@ -1,0 +1,2896 @@
+[
+  {
+    "id": "oc_laferrari_a",
+    "name": "라페라리",
+    "model": {
+      "file": "vehicle_RBV_laferrari.fbx",
+      "mesh": "RBVLaFerrari",
+      "scale": 0.8736
+    },
+    "wheel": {
+      "file": "vehicles_RBV_laferrari_wheel.fbx",
+      "mesh": null,
+      "scale": 0.48,
+      "texture": "skins/wheel_vehicles_wheelrbvlaferrari.png"
+    },
+    "lightbar": null,
+    "wheels": [
+      {
+        "name": "FrontLeft",
+        "x": 0.3956,
+        "y": 0.0873,
+        "z": 0.6484,
+        "radius": 0.18
+      },
+      {
+        "name": "FrontRight",
+        "x": -0.3956,
+        "y": 0.0878,
+        "z": 0.6484,
+        "radius": 0.18
+      },
+      {
+        "name": "RearLeft",
+        "x": 0.4011,
+        "y": 0.0878,
+        "z": -0.6319,
+        "radius": 0.18
+      },
+      {
+        "name": "RearRight",
+        "x": -0.4011,
+        "y": 0.0878,
+        "z": -0.6319,
+        "radius": 0.18
+      }
+    ],
+    "parts": [
+      {
+        "part": "Muffler",
+        "mesh": "RBVLaFerrari_Exhaust",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "Windshield",
+        "mesh": "RBVLaFerrari_Wiper",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "DoorFrontLeft",
+        "mesh": "RBVLaFerrari_DoorL",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "DoorFrontRight",
+        "mesh": "RBVLaFerrari_DoorR",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "HeadlightRearLeft",
+        "mesh": "RBVLaFerrari_Light_T_L",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "HeadlightRearRight",
+        "mesh": "RBVLaFerrari_Light_T_R",
+        "rotate": null,
+        "offset": null
+      }
+    ],
+    "hide": [],
+    "extents": [
+      0.978,
+      0.4835,
+      2.2747
+    ],
+    "mask": "skins/wheel_vehicle_rbvlaferrari_mask.png",
+    "skins": {
+      "oc": "skins/oc_laferrari.png"
+    },
+    "stockSize": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "id": "nm_mustang",
+    "name": "머스탱",
+    "model": {
+      "file": "RBV_MUSTANG_model.fbx",
+      "mesh": "Body",
+      "scale": 0.02
+    },
+    "wheel": {
+      "file": "RBV_MUSTANG_wheel.fbx",
+      "mesh": null,
+      "scale": 0.0199,
+      "texture": "skins/wheel_rbv_mustang_wheel.png"
+    },
+    "lightbar": null,
+    "wheels": [
+      {
+        "name": "FrontLeft",
+        "x": 0.66,
+        "y": 0.13,
+        "z": 1.16,
+        "radius": 0.33
+      },
+      {
+        "name": "FrontRight",
+        "x": -0.66,
+        "y": 0.13,
+        "z": 1.16,
+        "radius": 0.33
+      },
+      {
+        "name": "RearLeft",
+        "x": 0.67,
+        "y": 0.13,
+        "z": -1.23,
+        "radius": 0.33
+      },
+      {
+        "name": "RearRight",
+        "x": -0.67,
+        "y": 0.13,
+        "z": -1.24,
+        "radius": 0.33
+      }
+    ],
+    "parts": [
+      {
+        "part": "EngineDoor",
+        "mesh": "Hood1",
+        "rotate": [
+          -90,
+          0,
+          0
+        ],
+        "offset": null
+      }
+    ],
+    "hide": [
+      "PoliceLight"
+    ],
+    "extents": [
+      1.62,
+      0.98,
+      4.12
+    ],
+    "mask": "skins/wheel_rbv_mustang_mask.png",
+    "skins": {
+      "nm": "skins/nm_mustang.png",
+      "oc": "skins/oc_mustang.png"
+    },
+    "stockSize": [
+      2048,
+      2048
+    ]
+  },
+  {
+    "id": "nm_miata",
+    "name": "미아타",
+    "model": {
+      "file": "RBV_MIATA_HT_model.fbx",
+      "mesh": null,
+      "scale": 0.7
+    },
+    "wheel": {
+      "file": "RBV_MIATA_wheel.fbx",
+      "mesh": null,
+      "scale": 1,
+      "texture": "skins/wheel_rbv_miata_wheel.png"
+    },
+    "lightbar": {
+      "file": "RBV_MIATA_lightbar.fbx",
+      "mesh": null,
+      "scale": 1,
+      "texture": null
+    },
+    "wheels": [
+      {
+        "name": "FrontLeft",
+        "x": 0.831,
+        "y": -0.6338,
+        "z": 1.4366,
+        "radius": 0.35
+      },
+      {
+        "name": "FrontRight",
+        "x": -0.831,
+        "y": -0.6338,
+        "z": 1.4366,
+        "radius": 0.35
+      },
+      {
+        "name": "RearLeft",
+        "x": 0.8451,
+        "y": -0.6338,
+        "z": -1.3803,
+        "radius": 0.35
+      },
+      {
+        "name": "RearRight",
+        "x": -0.8451,
+        "y": -0.6338,
+        "z": -1.3803,
+        "radius": 0.35
+      }
+    ],
+    "parts": [],
+    "hide": [],
+    "extents": [
+      2.169,
+      1.4366,
+      4.9859
+    ],
+    "mask": "skins/wheel_rbv_miata_ht_mask.png",
+    "skins": {
+      "nm": "skins/nm_miata.png",
+      "oc": "skins/oc_miata.png"
+    },
+    "stockSize": [
+      2048,
+      2048
+    ]
+  },
+  {
+    "id": "oc_chiron_a",
+    "name": "부가티 시론",
+    "model": {
+      "file": "vehicle_RBVBugChiron.fbx",
+      "mesh": "RBVChiron",
+      "scale": 0.8736
+    },
+    "wheel": {
+      "file": "vehicles_WheelRBVBugChiron.fbx",
+      "mesh": null,
+      "scale": 0.5,
+      "texture": "skins/wheel_vehicles_wheelrbvbugchiron.png"
+    },
+    "lightbar": null,
+    "wheels": [
+      {
+        "name": "FrontLeft",
+        "x": 0.3956,
+        "y": 0.0165,
+        "z": 0.6484,
+        "radius": 0.18
+      },
+      {
+        "name": "FrontRight",
+        "x": -0.3956,
+        "y": 0.0165,
+        "z": 0.6538,
+        "radius": 0.18
+      },
+      {
+        "name": "RearLeft",
+        "x": 0.4011,
+        "y": 0.0165,
+        "z": -0.6484,
+        "radius": 0.18
+      },
+      {
+        "name": "RearRight",
+        "x": -0.4011,
+        "y": 0.0165,
+        "z": -0.6484,
+        "radius": 0.18
+      }
+    ],
+    "parts": [
+      {
+        "part": "GloveBox",
+        "mesh": "RBVChironEngine",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "Muffler",
+        "mesh": "RBVChironExhaust",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "Windshield",
+        "mesh": "RBVChironWipers",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "DoorFrontLeft",
+        "mesh": "RBVChironMirrorL",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "DoorFrontRight",
+        "mesh": "RBVChironMirrorR",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "HeadlightRearLeft",
+        "mesh": "RBVChironTaillightL",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "HeadlightRearRight",
+        "mesh": "RBVChironTaillightR",
+        "rotate": null,
+        "offset": null
+      }
+    ],
+    "hide": [],
+    "extents": [
+      0.978,
+      0.5165,
+      2.1648
+    ],
+    "mask": "skins/wheel_vehicle_rbvbugchiron_mask.png",
+    "skins": {
+      "oc": "skins/oc_chiron.png"
+    },
+    "stockSize": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "id": "oc_bushmaster",
+    "name": "부시마스터",
+    "model": {
+      "file": "Vehicles_RBVB_Body.fbx",
+      "mesh": "rbvb_body",
+      "scale": 0.09000000000000001
+    },
+    "wheel": {
+      "file": "runFlat_models.fbx",
+      "mesh": "runFlat_Modern",
+      "scale": 1,
+      "texture": "skins/wheel_wheels_runflat_modern.png"
+    },
+    "lightbar": null,
+    "wheels": [
+      {
+        "name": "FrontLeft",
+        "x": 1.0556,
+        "y": -0.6556,
+        "z": 2.1222,
+        "radius": 0.55
+      },
+      {
+        "name": "FrontRight",
+        "x": -1.0556,
+        "y": -0.6556,
+        "z": 2.1222,
+        "radius": 0.55
+      },
+      {
+        "name": "RearLeft",
+        "x": 1.0556,
+        "y": -0.6556,
+        "z": -1.7778,
+        "radius": 0.55
+      },
+      {
+        "name": "RearRight",
+        "x": -1.0556,
+        "y": -0.6556,
+        "z": -1.7778,
+        "radius": 0.55
+      }
+    ],
+    "parts": [
+      {
+        "part": "GloveBox",
+        "mesh": "rbvb_interior",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "Battery",
+        "mesh": "TIS_CarBattery",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "Muffler",
+        "mesh": "rbvb_exhaust",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "SuspensionFrontLeft",
+        "mesh": "rbvb_sus_f",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "SuspensionRearLeft",
+        "mesh": "rbvb_sus_r",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "Radio",
+        "mesh": "rbvb_radio",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "SeatDriver",
+        "mesh": "rbvb_seat_driver",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "SeatSupport",
+        "mesh": "rbvb_seat_support",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "SeatCrew1",
+        "mesh": "rbvb_seat_crew1",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "SeatCrew2",
+        "mesh": "rbvb_seat_crew2",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "SeatCrew3",
+        "mesh": "rbvb_seat_crew3",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "SeatCrew4",
+        "mesh": "rbvb_seat_crew4",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "SeatCrew5",
+        "mesh": "rbvb_seat_crew5",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "SeatCrew6",
+        "mesh": "rbvb_seat_crew6",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "SeatCrew7",
+        "mesh": "rbvb_seat_crew7",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "SeatCrew8",
+        "mesh": "rbvb_seat_crew8",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "RBVBumperFront",
+        "mesh": "rbvb_bullbar_sas",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "EngineDoor",
+        "mesh": "rbvb_hood",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "TrunkDoor",
+        "mesh": "rbvb_door_rear",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "TrunkHatch",
+        "mesh": "rbvb_hatch",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "RBVMudflaps",
+        "mesh": "rbvb_mudflaps",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "RBVBFenderLeft",
+        "mesh": "rbvb_left_fender",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "RBVBFenderRight",
+        "mesh": "rbvb_right_fender",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "StorageLid1",
+        "mesh": "rbvb_storageDoor1",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "StorageLid2",
+        "mesh": "rbvb_storageDoor2",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "StorageLid3",
+        "mesh": "rbvb_storageDoor3",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "RBVBStorageLeft",
+        "mesh": "rbvb_left_storage0",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "RBVBStorageRight",
+        "mesh": "rbvb_right_storage",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "RBVBRoofCrates",
+        "mesh": "rbvb_roof_storage",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "GasTank",
+        "mesh": "rbvb_gastank",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "RBVBCanOne",
+        "mesh": "rbvb_gascan",
+        "rotate": null,
+        "offset": [
+          0,
+          0,
+          0.01
+        ]
+      },
+      {
+        "part": "Windshield",
+        "mesh": "rbvb_windshield",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "WindshieldRear",
+        "mesh": "rbvb_windshield_rear",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "WindowFrontLeft",
+        "mesh": "rbvb_window_fl",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "WindowFrontRight",
+        "mesh": "rbvb_window_fr",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "WindowMiddleLeft",
+        "mesh": "rbvb_window_ml",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "WindowMiddleRight",
+        "mesh": "rbvb_window_mr",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "WindowRearLeft",
+        "mesh": "rbvb_window_rl",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "WindowRearRight",
+        "mesh": "rbvb_window_rr",
+        "rotate": null,
+        "offset": null
+      }
+    ],
+    "hide": [
+      "rbvb_left_storage_g",
+      "rbvb_spare_bottom1",
+      "rbvb_body_amb",
+      "rbvb_interior_amb",
+      "rbvb_seat_gunner"
+    ],
+    "extents": [
+      2.4889,
+      1.2,
+      6.5556
+    ],
+    "mask": "skins/wheel_vehicles_rbvb_mask.png",
+    "skins": {
+      "oc": "skins/oc_bushmaster.png"
+    },
+    "stockSize": [
+      512,
+      512
+    ]
+  },
+  {
+    "id": "oc_vision_a",
+    "name": "비전 GT",
+    "model": {
+      "file": "vehicle_RBVVision.fbx",
+      "mesh": "RBV_MBVGT",
+      "scale": 0.8736
+    },
+    "wheel": {
+      "file": "vehicles_WheelRBVVision.fbx",
+      "mesh": null,
+      "scale": 0.48,
+      "texture": "skins/wheel_vehicles_wheelrbvvision.png"
+    },
+    "lightbar": null,
+    "wheels": [
+      {
+        "name": "FrontLeft",
+        "x": 0.3901,
+        "y": 0.033,
+        "z": 0.6978,
+        "radius": 0.18
+      },
+      {
+        "name": "FrontRight",
+        "x": -0.3901,
+        "y": 0.033,
+        "z": 0.6978,
+        "radius": 0.18
+      },
+      {
+        "name": "RearLeft",
+        "x": 0.4011,
+        "y": 0.033,
+        "z": -0.6264,
+        "radius": 0.18
+      },
+      {
+        "name": "RearRight",
+        "x": -0.4011,
+        "y": 0.033,
+        "z": -0.6264,
+        "radius": 0.18
+      }
+    ],
+    "parts": [
+      {
+        "part": "DoorFrontLeft",
+        "mesh": "RBV_MBVGT_DoorL",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "DoorFrontRight",
+        "mesh": "RBV_MBVGT_DoorR",
+        "rotate": null,
+        "offset": null
+      }
+    ],
+    "hide": [],
+    "extents": [
+      0.9341,
+      0.5165,
+      2.2857
+    ],
+    "mask": "skins/wheel_vehicle_rbvvision_mask.png",
+    "skins": {
+      "oc": "skins/oc_vision.png"
+    },
+    "stockSize": [
+      4096,
+      4096
+    ]
+  },
+  {
+    "id": "nm_samara",
+    "name": "사마라",
+    "model": {
+      "file": "RBV_SAMARA_model.fbx",
+      "mesh": "Body",
+      "scale": 0.02
+    },
+    "wheel": {
+      "file": "RBV_SAMARA_wheel.fbx",
+      "mesh": "Wheel1",
+      "scale": 0.027,
+      "texture": "skins/wheel_rbv_samara_wheel.png"
+    },
+    "lightbar": null,
+    "wheels": [
+      {
+        "name": "FrontLeft",
+        "x": 0.76,
+        "y": 0.19,
+        "z": 1.26,
+        "radius": 0.33
+      },
+      {
+        "name": "FrontRight",
+        "x": -0.76,
+        "y": 0.19,
+        "z": 1.26,
+        "radius": 0.33
+      },
+      {
+        "name": "RearLeft",
+        "x": 0.76,
+        "y": 0.19,
+        "z": -1.26,
+        "radius": 0.33
+      },
+      {
+        "name": "RearRight",
+        "x": -0.76,
+        "y": 0.19,
+        "z": -1.26,
+        "radius": 0.33
+      }
+    ],
+    "parts": [
+      {
+        "part": "EngineDoor",
+        "mesh": "Hood1",
+        "rotate": [
+          -90,
+          0,
+          0
+        ],
+        "offset": null
+      }
+    ],
+    "hide": [
+      "PoliceLight",
+      "Zapaska1",
+      "Zapaska2",
+      "Zapaska3"
+    ],
+    "extents": [
+      1.62,
+      0.98,
+      4.12
+    ],
+    "mask": "skins/wheel_rbv_samara_mask.png",
+    "skins": {
+      "nm": "skins/nm_samara.png",
+      "oc": "skins/oc_samara.png"
+    },
+    "stockSize": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "id": "nm_supra",
+    "name": "수프라",
+    "model": {
+      "file": "RBV_SUPRA_model.fbx",
+      "mesh": null,
+      "scale": 0.77
+    },
+    "wheel": {
+      "file": "RBV_SUPRA_wheel.fbx",
+      "mesh": null,
+      "scale": 1,
+      "texture": "skins/wheel_rbv_supra_wheel.png"
+    },
+    "lightbar": {
+      "file": "RBV_SUPRA_lightbar.fbx",
+      "mesh": null,
+      "scale": 1,
+      "texture": null
+    },
+    "wheels": [
+      {
+        "name": "FrontLeft",
+        "x": 0.8701,
+        "y": -0.6104,
+        "z": 1.5065,
+        "radius": 0.41
+      },
+      {
+        "name": "FrontRight",
+        "x": -0.8701,
+        "y": -0.6104,
+        "z": 1.5065,
+        "radius": 0.41
+      },
+      {
+        "name": "RearLeft",
+        "x": 0.9091,
+        "y": -0.6104,
+        "z": -1.4805,
+        "radius": 0.41
+      },
+      {
+        "name": "RearRight",
+        "x": -0.9091,
+        "y": -0.6104,
+        "z": -1.4805,
+        "radius": 0.41
+      }
+    ],
+    "parts": [],
+    "hide": [],
+    "extents": [
+      2.2078,
+      1.4286,
+      5.3247
+    ],
+    "mask": "skins/wheel_rbv_supra_mask.png",
+    "skins": {
+      "nm": "skins/nm_supra.png",
+      "oc": "skins/oc_supra.png"
+    },
+    "stockSize": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "id": "nm_stepvan",
+    "name": "스텝밴",
+    "model": {
+      "file": "Vehicles_RBVStepVan_Body.fbx",
+      "mesh": "RBVstpvan_body",
+      "scale": 0.09000000000000001
+    },
+    "wheel": {
+      "file": "Vehicles_RBVWheel_models.fbx",
+      "mesh": "rbv93_tire",
+      "scale": 0.09,
+      "texture": "skins/wheel_vehicles_rbvwheel_wheel3.png"
+    },
+    "lightbar": null,
+    "wheels": [
+      {
+        "name": "FrontLeft",
+        "x": 0.7778,
+        "y": -0.1222,
+        "z": 1.6556,
+        "radius": 0.32
+      },
+      {
+        "name": "FrontRight",
+        "x": -0.7778,
+        "y": -0.1222,
+        "z": 1.6556,
+        "radius": 0.32
+      },
+      {
+        "name": "RearLeft",
+        "x": 0.6889,
+        "y": -0.1222,
+        "z": -1.4556,
+        "radius": 0.32
+      },
+      {
+        "name": "RearRight",
+        "x": -0.6889,
+        "y": -0.1222,
+        "z": -1.4556,
+        "radius": 0.32
+      }
+    ],
+    "parts": [
+      {
+        "part": "GloveBox",
+        "mesh": "RBVstpvan_interior",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "Battery",
+        "mesh": "TIS_battery",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "Muffler",
+        "mesh": "RBVstpvan_muffler0",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "SeatFrontLeft",
+        "mesh": "RBVstpvan_seatfl",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "SeatFrontRight",
+        "mesh": "RBVstpvan_seatfr",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "RBVStepVanFixedBumperFront",
+        "mesh": "RBVstpvan_bumper_front0",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "RBVStepVanFixedBumperRear",
+        "mesh": "RBVstpvan_bumper_rear0",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "EngineDoor",
+        "mesh": "RBVstpvan_hood",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "TrunkDoor",
+        "mesh": "RBVstpvan_trunkDoor",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "DoorFrontLeft",
+        "mesh": "RBVstpvan_door_fl",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "DoorFrontRight",
+        "mesh": "RBVstpvan_door_fr",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "RBVStepVanFixedVent",
+        "mesh": "RBVstpvan_vent",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "WindowFrontLeft",
+        "mesh": "RBVstpvan_window_fl",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "WindowFrontRight",
+        "mesh": "RBVstpvan_window_fr",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "Windshield",
+        "mesh": "RBVstpvan_windshield_front",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "WindshieldRear",
+        "mesh": "RBVstpvan_windshield_rear",
+        "rotate": null,
+        "offset": null
+      }
+    ],
+    "hide": [
+      "RBVstpvan_body_roof",
+      "RBVstpvan_interior_roof",
+      "RBVstpvan_lightbar_oval",
+      "RBVstpvan_swat_extra"
+    ],
+    "extents": [
+      2.0667,
+      2.0889,
+      5.6667
+    ],
+    "mask": "skins/wheel_vehicles_rbvstepvan_mask.png",
+    "skins": {
+      "nm": "skins/nm_stepvan.png",
+      "oc": "skins/oc_stepvan.png"
+    },
+    "stockSize": [
+      512,
+      512
+    ]
+  },
+  {
+    "id": "nm_challenger",
+    "name": "챌린저",
+    "model": {
+      "file": "RBV_CHALLENGER_model.fbx",
+      "mesh": null,
+      "scale": 0.00656
+    },
+    "wheel": {
+      "file": "RBV_CHALLENGER_wheel.fbx",
+      "mesh": null,
+      "scale": 1.2,
+      "texture": "skins/wheel_rbv_challenger_wheel.png"
+    },
+    "lightbar": {
+      "file": "RBV_CHALLENGER_lightbar.fbx",
+      "mesh": null,
+      "scale": 1,
+      "texture": null
+    },
+    "wheels": [
+      {
+        "name": "FrontLeft",
+        "x": 0.8171,
+        "y": -0.561,
+        "z": 1.3171,
+        "radius": 0.37
+      },
+      {
+        "name": "FrontRight",
+        "x": -0.8293,
+        "y": -0.561,
+        "z": 1.3171,
+        "radius": 0.37
+      },
+      {
+        "name": "RearLeft",
+        "x": 0.8171,
+        "y": -0.5366,
+        "z": -1.7073,
+        "radius": 0.37
+      },
+      {
+        "name": "RearRight",
+        "x": -0.8293,
+        "y": -0.5366,
+        "z": -1.7073,
+        "radius": 0.37
+      }
+    ],
+    "parts": [],
+    "hide": [],
+    "extents": [
+      1.7073,
+      1.561,
+      5.0732
+    ],
+    "mask": "skins/wheel_rbv_challenger_mask.png",
+    "skins": {
+      "nm": "skins/nm_challenger.png",
+      "oc": "skins/oc_challenger.png"
+    },
+    "stockSize": [
+      2048,
+      2048
+    ]
+  },
+  {
+    "id": "oc_cargo",
+    "name": "카고 트레일러",
+    "model": {
+      "file": "Trailers_RBVCGO_Body.fbx",
+      "mesh": "RBVCGO_body",
+      "scale": 0.09000000000000001
+    },
+    "wheel": {
+      "file": "runFlat_models.fbx",
+      "mesh": "runFlat_Small",
+      "scale": 1,
+      "texture": "skins/wheel_wheels_runflat_small.png"
+    },
+    "lightbar": null,
+    "wheels": [
+      {
+        "name": "FrontLeft",
+        "x": 0.9,
+        "y": -0.6889,
+        "z": -0.0778,
+        "radius": 0.4
+      },
+      {
+        "name": "FrontRight",
+        "x": -0.9,
+        "y": -0.6889,
+        "z": -0.0778,
+        "radius": 0.4
+      }
+    ],
+    "parts": [
+      {
+        "part": "TrunkDoor",
+        "mesh": "RBVCGO_trunkdoor",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "TrunkDoorTwo",
+        "mesh": "RBVCGO_trunkdoortwo",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "RBVCGOFixedCover",
+        "mesh": "RBVCGO_cover",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "RBVCGOFixedSpareMount",
+        "mesh": "RBVCGO_frontsparetire",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "RBVCGOFixedTarp",
+        "mesh": "RBVCGO_tarp",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "SuspensionFrontLeft",
+        "mesh": "RBVCGO_sus_left",
+        "rotate": null,
+        "offset": null
+      }
+    ],
+    "hide": [],
+    "extents": [
+      2.1778,
+      0.7556,
+      2.4444
+    ],
+    "mask": "skins/wheel_rbvcargotrailer_mask.png",
+    "skins": {
+      "oc": "skins/oc_cargo.png"
+    },
+    "stockSize": [
+      512,
+      512
+    ]
+  },
+  {
+    "id": "nm_camaro",
+    "name": "카마로",
+    "model": {
+      "file": "RBV_CAMARO_model.fbx",
+      "mesh": "body",
+      "scale": 0.45
+    },
+    "wheel": {
+      "file": "RBV_CAMARO_wheel.fbx",
+      "mesh": null,
+      "scale": 1,
+      "texture": "skins/wheel_rbv_camaro_wheel.png"
+    },
+    "lightbar": {
+      "file": "RBV_CAMARO_lightbar.fbx",
+      "mesh": null,
+      "scale": 1,
+      "texture": null
+    },
+    "wheels": [
+      {
+        "name": "FrontLeft",
+        "x": 1.5778,
+        "y": -0.6222,
+        "z": 2.8444,
+        "radius": 0.6
+      },
+      {
+        "name": "FrontRight",
+        "x": -1.5778,
+        "y": -0.6222,
+        "z": 2.8444,
+        "radius": 0.6
+      },
+      {
+        "name": "RearLeft",
+        "x": 1.5778,
+        "y": -0.6222,
+        "z": -2.7111,
+        "radius": 0.6
+      },
+      {
+        "name": "RearRight",
+        "x": -1.5778,
+        "y": -0.6222,
+        "z": -2.7111,
+        "radius": 0.6
+      }
+    ],
+    "parts": [
+      {
+        "part": "Interior",
+        "mesh": "interior",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": null
+      },
+      {
+        "part": "TrunkDoor",
+        "mesh": "trunk",
+        "rotate": [
+          90,
+          0,
+          -180
+        ],
+        "offset": null
+      },
+      {
+        "part": "SeatFrontLeft",
+        "mesh": "fl_seat",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": null
+      },
+      {
+        "part": "SeatFrontRight",
+        "mesh": "fr_seat",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": null
+      },
+      {
+        "part": "Battery",
+        "mesh": "batterycamaro",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "EngineDoor",
+        "mesh": "bonnet",
+        "rotate": [
+          90,
+          0,
+          -180
+        ],
+        "offset": null
+      },
+      {
+        "part": "Windshield",
+        "mesh": "windshield",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "WindshieldRear",
+        "mesh": "rear_glass",
+        "rotate": [
+          180,
+          -180,
+          180
+        ],
+        "offset": null
+      },
+      {
+        "part": "WindowFrontLeft",
+        "mesh": "fl_window",
+        "rotate": [
+          90,
+          0,
+          180
+        ],
+        "offset": null
+      },
+      {
+        "part": "WindowFrontRight",
+        "mesh": "fr_window",
+        "rotate": [
+          90,
+          0,
+          180
+        ],
+        "offset": null
+      },
+      {
+        "part": "WindowRearLeft",
+        "mesh": "rl_window",
+        "rotate": [
+          180,
+          -180,
+          180
+        ],
+        "offset": null
+      },
+      {
+        "part": "WindowRearRight",
+        "mesh": "rr_window",
+        "rotate": [
+          180,
+          -180,
+          180
+        ],
+        "offset": null
+      },
+      {
+        "part": "DoorFrontLeft",
+        "mesh": "fl_door",
+        "rotate": [
+          90,
+          0,
+          -180
+        ],
+        "offset": null
+      },
+      {
+        "part": "DoorFrontRight",
+        "mesh": "fr_door",
+        "rotate": [
+          90,
+          0,
+          -180
+        ],
+        "offset": null
+      }
+    ],
+    "hide": [],
+    "extents": [
+      4.1333,
+      2.0444,
+      9.6
+    ],
+    "mask": "skins/wheel_rbv_camaro_mask.png",
+    "skins": {
+      "nm": "skins/nm_camaro.png",
+      "oc": "skins/oc_camaro.png"
+    },
+    "stockSize": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "id": "oc_918_a",
+    "name": "포르쉐 918",
+    "model": {
+      "file": "vehicle_RBV918.fbx",
+      "mesh": "RBV918",
+      "scale": 0.8736
+    },
+    "wheel": {
+      "file": "vehicles_WheelRBV918Concept.fbx",
+      "mesh": "WheelStandard",
+      "scale": 0.48,
+      "texture": "skins/wheel_vehicles_wheelrbvpor918.png"
+    },
+    "lightbar": null,
+    "wheels": [
+      {
+        "name": "FrontLeft",
+        "x": 0.3901,
+        "y": 0.0989,
+        "z": 0.5934,
+        "radius": 0.18
+      },
+      {
+        "name": "FrontRight",
+        "x": -0.3901,
+        "y": 0.0989,
+        "z": 0.5934,
+        "radius": 0.18
+      },
+      {
+        "name": "RearLeft",
+        "x": 0.3846,
+        "y": 0.0989,
+        "z": -0.7253,
+        "radius": 0.18
+      },
+      {
+        "name": "RearRight",
+        "x": -0.3846,
+        "y": 0.0989,
+        "z": -0.7253,
+        "radius": 0.18
+      }
+    ],
+    "parts": [
+      {
+        "part": "TruckBed",
+        "mesh": "RBV918WingDown",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "Windshield",
+        "mesh": "RBV918Wiper",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "DoorFrontLeft",
+        "mesh": "RBV918MirrorL",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "DoorFrontRight",
+        "mesh": "RBV918MirrorR",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "HeadlightLeft",
+        "mesh": "RBV918HeadlightCoverL",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "HeadlightRight",
+        "mesh": "RBV918HeadlightCoverR",
+        "rotate": null,
+        "offset": null
+      }
+    ],
+    "hide": [
+      "RBV918WPKit"
+    ],
+    "extents": [
+      0.956,
+      0.5165,
+      2.2088
+    ],
+    "mask": "skins/wheel_vehicle_rbvpor918_mask.png",
+    "skins": {
+      "oc": "skins/oc_918.png"
+    },
+    "stockSize": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "id": "nm_h1",
+    "name": "험머 H1",
+    "model": {
+      "file": "RBV_HUMMER_model.fbx",
+      "mesh": "Body",
+      "scale": 0.048
+    },
+    "wheel": {
+      "file": "RBV_HUMMER_wheel.fbx",
+      "mesh": null,
+      "scale": 0.024,
+      "texture": "skins/wheel_rbv_hummer_wheel.png"
+    },
+    "lightbar": {
+      "file": "RBV_HUMMER_lightbar.fbx",
+      "mesh": null,
+      "scale": 1,
+      "texture": null
+    },
+    "wheels": [
+      {
+        "name": "FrontLeft",
+        "x": 0.395,
+        "y": -0.165,
+        "z": 0.73,
+        "radius": 0.18
+      },
+      {
+        "name": "FrontRight",
+        "x": -0.395,
+        "y": -0.165,
+        "z": 0.73,
+        "radius": 0.18
+      },
+      {
+        "name": "RearLeft",
+        "x": 0.395,
+        "y": -0.165,
+        "z": -0.695,
+        "radius": 0.18
+      },
+      {
+        "name": "RearRight",
+        "x": -0.395,
+        "y": -0.165,
+        "z": -0.695,
+        "radius": 0.18
+      }
+    ],
+    "parts": [
+      {
+        "part": "TrunkDoor",
+        "mesh": "trunkDoors",
+        "rotate": [
+          -90,
+          180,
+          0
+        ],
+        "offset": null
+      },
+      {
+        "part": "SeatFrontLeft",
+        "mesh": "seatFL",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "SeatFrontRight",
+        "mesh": "seatFR",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "SeatRearLeft",
+        "mesh": "seatRL",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "SeatRearRight",
+        "mesh": "seatRR",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "GloveBox",
+        "mesh": "inner",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": null
+      },
+      {
+        "part": "Battery",
+        "mesh": "Battery",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "EngineDoor",
+        "mesh": "Hood",
+        "rotate": [
+          -90,
+          180,
+          0
+        ],
+        "offset": null
+      },
+      {
+        "part": "Windshield",
+        "mesh": "windshield",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "WindshieldRear",
+        "mesh": "trunkWindows",
+        "rotate": [
+          90,
+          0,
+          180
+        ],
+        "offset": null
+      },
+      {
+        "part": "WindowFrontLeft",
+        "mesh": "windowFL",
+        "rotate": [
+          90,
+          0,
+          180
+        ],
+        "offset": null
+      },
+      {
+        "part": "WindowFrontRight",
+        "mesh": "windowFR",
+        "rotate": [
+          90,
+          0,
+          180
+        ],
+        "offset": null
+      },
+      {
+        "part": "WindowRearLeft",
+        "mesh": "leftWindows",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": null
+      },
+      {
+        "part": "WindowRearRight",
+        "mesh": "rightWindows",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": null
+      },
+      {
+        "part": "WindowMiddleLeft",
+        "mesh": "windowRL",
+        "rotate": [
+          90,
+          0,
+          180
+        ],
+        "offset": null
+      },
+      {
+        "part": "WindowMiddleRight",
+        "mesh": "windowRR",
+        "rotate": [
+          90,
+          0,
+          180
+        ],
+        "offset": null
+      },
+      {
+        "part": "DoorFrontLeft",
+        "mesh": "doorFL",
+        "rotate": [
+          90,
+          0,
+          180
+        ],
+        "offset": null
+      },
+      {
+        "part": "DoorFrontRight",
+        "mesh": "doorFR",
+        "rotate": [
+          90,
+          0,
+          180
+        ],
+        "offset": null
+      },
+      {
+        "part": "DoorRearLeft",
+        "mesh": "doorRL",
+        "rotate": [
+          90,
+          0,
+          180
+        ],
+        "offset": null
+      },
+      {
+        "part": "DoorRearRight",
+        "mesh": "doorRR",
+        "rotate": [
+          90,
+          0,
+          180
+        ],
+        "offset": null
+      }
+    ],
+    "hide": [],
+    "extents": [
+      0.95,
+      0.64,
+      1.98
+    ],
+    "mask": "skins/wheel_rbv_hummer_mask.png",
+    "skins": {
+      "nm": "skins/nm_h1.png",
+      "oc": "skins/oc_h1.png"
+    },
+    "stockSize": [
+      2048,
+      2048
+    ]
+  },
+  {
+    "id": "oc_hmmwv",
+    "name": "험비",
+    "model": {
+      "file": "Vehicles_RBVHumvee_Body.fbx",
+      "mesh": "RBVHV_body",
+      "scale": 0.09000000000000001
+    },
+    "wheel": {
+      "file": "runFlat_models.fbx",
+      "mesh": "runFlat_Small",
+      "scale": 1,
+      "texture": "skins/wheel_wheels_runflat_small.png"
+    },
+    "lightbar": null,
+    "wheels": [
+      {
+        "name": "FrontLeft",
+        "x": 0.9111,
+        "y": -0.6333,
+        "z": 1.8333,
+        "radius": 0.4
+      },
+      {
+        "name": "FrontRight",
+        "x": -0.9111,
+        "y": -0.6333,
+        "z": 1.8333,
+        "radius": 0.4
+      },
+      {
+        "name": "RearLeft",
+        "x": 0.9111,
+        "y": -0.6778,
+        "z": -1.3778,
+        "radius": 0.4
+      },
+      {
+        "name": "RearRight",
+        "x": -0.9111,
+        "y": -0.6778,
+        "z": -1.3778,
+        "radius": 0.4
+      }
+    ],
+    "parts": [
+      {
+        "part": "GloveBox",
+        "mesh": "RBVHV_body_interior",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "Battery",
+        "mesh": "TIS_CarBattery",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "Radio",
+        "mesh": "RBVHV_radio",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "RBVHumveeFixedRoofrack",
+        "mesh": "RBVHV_roofrack",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "RBVHumveeFixedSpareMount",
+        "mesh": "RBVHV_sparetire",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "RBVHumveeFixedMudflaps",
+        "mesh": "RBVHV_mudflaps",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "TrunkDoor",
+        "mesh": "RBVHV_trunk",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "RBVHumveeFixedBarrier",
+        "mesh": "RBVHV_barrier1",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "RBVHumveeFixedBackCover",
+        "mesh": "RBVHV_sloped_trunk",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "SeatFrontLeft",
+        "mesh": "RBVHV_seat_fl",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "SeatRearLeft",
+        "mesh": "RBVHV_seat_rl",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "RBVHumveeFixedMuffler",
+        "mesh": "RBVHV_bigmuffler",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "EngineDoor",
+        "mesh": "RBVHV_hood",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "Windshield",
+        "mesh": "RBVHV_windshield",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "WindowFrontLeft",
+        "mesh": "window_fl",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "WindowFrontRight",
+        "mesh": "window_fr",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "WindowRearLeft",
+        "mesh": "window_rl",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "WindowRearRight",
+        "mesh": "window_rr",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "DoorFrontLeft",
+        "mesh": "door_fl",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "DoorFrontRight",
+        "mesh": "door_fr",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "DoorRearLeft",
+        "mesh": "door_rl",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "DoorRearRight",
+        "mesh": "door_rr",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "RBVHumveeFixedArmorFL",
+        "mesh": "door_fl_a",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "RBVHumveeFixedArmorFR",
+        "mesh": "door_fr_a",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "RBVHumveeFixedArmorRL",
+        "mesh": "door_rl_a",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "RBVHumveeFixedArmorRR",
+        "mesh": "door_rr_a",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "RBVHumveeFixedArmorWS",
+        "mesh": "RBVHV_windshield_a",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "RBVHumveeFixedBullbar",
+        "mesh": "RBVHV_bigbullbar",
+        "rotate": null,
+        "offset": null
+      }
+    ],
+    "hide": [],
+    "extents": [
+      2.2222,
+      1.4,
+      4.6222
+    ],
+    "mask": "skins/wheel_rbvhumvee_mask.png",
+    "skins": {
+      "oc": "skins/oc_hmmwv.png"
+    },
+    "stockSize": [
+      512,
+      512
+    ]
+  },
+  {
+    "id": "nm_acty",
+    "name": "혼다 악티",
+    "model": {
+      "file": "RBV_ACTY_base.fbx",
+      "mesh": "cab_mesh",
+      "scale": 0.1
+    },
+    "wheel": {
+      "file": "RBV_ACTY_base.fbx",
+      "mesh": "wheel_mesh",
+      "scale": 0.1,
+      "texture": "skins/wheel_rbv_acty_shell.png"
+    },
+    "lightbar": {
+      "file": "RBV_ACTY_lightbar.fbx",
+      "mesh": null,
+      "scale": 1,
+      "texture": null
+    },
+    "wheels": [
+      {
+        "name": "FrontLeft",
+        "x": 0.63,
+        "y": -0.56,
+        "z": 0.73,
+        "radius": 0.27
+      },
+      {
+        "name": "FrontRight",
+        "x": -0.63,
+        "y": -0.56,
+        "z": 0.73,
+        "radius": 0.27
+      },
+      {
+        "name": "RearLeft",
+        "x": 0.61,
+        "y": -0.56,
+        "z": -1.16,
+        "radius": 0.27
+      },
+      {
+        "name": "RearRight",
+        "x": -0.61,
+        "y": -0.56,
+        "z": -1.16,
+        "radius": 0.27
+      }
+    ],
+    "parts": [
+      {
+        "part": "TrunkDoor",
+        "mesh": "trunk_mesh",
+        "rotate": [
+          20,
+          0,
+          0
+        ],
+        "offset": [
+          0.08,
+          -0.4509,
+          0.31
+        ]
+      },
+      {
+        "part": "GloveBox",
+        "mesh": "interior_mesh",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "GasTank",
+        "mesh": "gastank_mesh",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "Battery",
+        "mesh": "battery_mesh",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          -0.0041,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "Muffler",
+        "mesh": "muffler_mesh",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          -0.01
+        ]
+      },
+      {
+        "part": "EngineDoor",
+        "mesh": "hood_mesh",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0.07,
+          0.02,
+          0.2612
+        ]
+      },
+      {
+        "part": "Windshield",
+        "mesh": "glass_front_mesh",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "WindshieldRear",
+        "mesh": "glass_rear_mesh",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "WindowFrontLeft",
+        "mesh": "glass_l_mesh",
+        "rotate": [
+          0,
+          4,
+          0
+        ],
+        "offset": [
+          -0.0383,
+          -0.13,
+          -0.01
+        ]
+      },
+      {
+        "part": "WindowFrontRight",
+        "mesh": "glass_r_mesh",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0.16,
+          -0.1177,
+          -0.03
+        ]
+      },
+      {
+        "part": "DoorFrontLeft",
+        "mesh": "door_l_mesh",
+        "rotate": [
+          0,
+          2,
+          0
+        ],
+        "offset": [
+          -0.03,
+          0,
+          0.02
+        ]
+      },
+      {
+        "part": "DoorFrontRight",
+        "mesh": "door_r_mesh",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0.16,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "TireFrontLeft",
+        "mesh": "wheel_mesh",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          -0.0019,
+          0
+        ]
+      },
+      {
+        "part": "HeadlightLeft",
+        "mesh": "bumper_front_mesh",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "HeadlightRight",
+        "mesh": "bumper_rear_mesh",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "SeatFrontRight",
+        "mesh": "seat_l_mesh",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "SeatFrontLeft",
+        "mesh": "seat_r_mesh",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "RBV_Acty_SpareTire",
+        "mesh": "spare_mesh",
+        "rotate": null,
+        "offset": null
+      }
+    ],
+    "hide": [],
+    "extents": [
+      1.4,
+      1.3,
+      3.2
+    ],
+    "mask": "skins/wheel_rbv_acty_mask.png",
+    "skins": {
+      "nm": "skins/nm_acty.png",
+      "oc": "skins/oc_acty.png"
+    },
+    "stockSize": [
+      512,
+      512
+    ]
+  },
+  {
+    "id": "nm_3series",
+    "name": "BMW 3시리즈",
+    "model": {
+      "file": "RBV_3SERIES_model.fbx",
+      "mesh": null,
+      "scale": 1.82
+    },
+    "wheel": {
+      "file": "RBV_3SERIES_wheel.fbx",
+      "mesh": null,
+      "scale": 1,
+      "texture": "skins/wheel_rbv_3series_wheel.png"
+    },
+    "lightbar": {
+      "file": "RBV_3SERIES_lightbar.fbx",
+      "mesh": null,
+      "scale": 1,
+      "texture": null
+    },
+    "wheels": [
+      {
+        "name": "FrontLeft",
+        "x": 0.3626,
+        "y": -0.1813,
+        "z": 0.7143,
+        "radius": 0.15
+      },
+      {
+        "name": "FrontRight",
+        "x": -0.3626,
+        "y": -0.1813,
+        "z": 0.7143,
+        "radius": 0.15
+      },
+      {
+        "name": "RearLeft",
+        "x": 0.3626,
+        "y": -0.1813,
+        "z": -0.5934,
+        "radius": 0.15
+      },
+      {
+        "name": "RearRight",
+        "x": -0.3626,
+        "y": -0.1813,
+        "z": -0.5934,
+        "radius": 0.15
+      }
+    ],
+    "parts": [],
+    "hide": [],
+    "extents": [
+      0.8462,
+      0.6154,
+      2.1538
+    ],
+    "mask": "skins/wheel_rbv_3series_mask.png",
+    "skins": {
+      "nm": "skins/nm_3series.png",
+      "oc": "skins/oc_3series.png"
+    },
+    "stockSize": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "id": "nm_eclass",
+    "name": "E클래스",
+    "model": {
+      "file": "RBV_ECLASS_model.fbx",
+      "mesh": null,
+      "scale": 1.29
+    },
+    "wheel": {
+      "file": "RBV_ECLASS_wheel.fbx",
+      "mesh": null,
+      "scale": 1,
+      "texture": "skins/wheel_rbv_eclass_wheel.png"
+    },
+    "lightbar": {
+      "file": "RBV_ECLASS_lightbar.fbx",
+      "mesh": null,
+      "scale": 1,
+      "texture": null
+    },
+    "wheels": [
+      {
+        "name": "FrontLeft",
+        "x": 0.56,
+        "y": -0.4,
+        "z": 1.23,
+        "radius": 0.27
+      },
+      {
+        "name": "FrontRight",
+        "x": -0.56,
+        "y": -0.4,
+        "z": 1.23,
+        "radius": 0.27
+      },
+      {
+        "name": "RearLeft",
+        "x": 0.56,
+        "y": -0.42,
+        "z": -0.85,
+        "radius": 0.27
+      },
+      {
+        "name": "RearRight",
+        "x": -0.56,
+        "y": -0.42,
+        "z": -0.85,
+        "radius": 0.27
+      }
+    ],
+    "parts": [],
+    "hide": [],
+    "extents": [
+      1.3798,
+      0.9612,
+      3.4279
+    ],
+    "mask": "skins/wheel_rbv_eclass_mask.png",
+    "skins": {
+      "nm": "skins/nm_eclass.png",
+      "oc": "skins/oc_eclass.png"
+    },
+    "stockSize": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "id": "nm_gwagen",
+    "name": "G바겐",
+    "model": {
+      "file": "RBV_GWAGEN_model.fbx",
+      "mesh": "body_mesh",
+      "scale": 0.63
+    },
+    "wheel": {
+      "file": "RBV_GWAGEN_wheelL.fbx",
+      "mesh": null,
+      "scale": 1,
+      "texture": "skins/wheel_rbv_gwagen_wheel.png"
+    },
+    "lightbar": {
+      "file": "RBV_GWAGEN_lightbar.fbx",
+      "mesh": null,
+      "scale": 1,
+      "texture": null
+    },
+    "wheels": [
+      {
+        "name": "FrontLeft",
+        "x": -1,
+        "y": 0.0794,
+        "z": 2.0952,
+        "radius": 0.5
+      },
+      {
+        "name": "FrontRight",
+        "x": 1,
+        "y": 0.0794,
+        "z": 2.0952,
+        "radius": 0.5
+      },
+      {
+        "name": "RearLeft",
+        "x": -1.0317,
+        "y": 0.0794,
+        "z": -1.9683,
+        "radius": 0.5
+      },
+      {
+        "name": "RearRight",
+        "x": 1.0317,
+        "y": 0.0794,
+        "z": -1.9683,
+        "radius": 0.5
+      }
+    ],
+    "parts": [
+      {
+        "part": "Windshield",
+        "mesh": "Windshield_obj",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "WindshieldRear",
+        "mesh": "TrunkWindow_obj",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "WindowFrontRight",
+        "mesh": "WindowFrontRight_obj",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "WindowFrontLeft",
+        "mesh": "WindowFrontLeft_obj",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "WindowRearRight",
+        "mesh": "WindowRearRight_obj",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "WindowRearLeft",
+        "mesh": "WindowRearLeft_obj",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "DoorFrontRight",
+        "mesh": "DoorFrontRight_obj",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "DoorFrontLeft",
+        "mesh": "DoorFrontLeft_obj",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "DoorRearRight",
+        "mesh": "DoorRearRight_obj",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "DoorRearLeft",
+        "mesh": "DoorRearLeft_obj",
+        "rotate": null,
+        "offset": null
+      },
+      {
+        "part": "TrunkDoor",
+        "mesh": "DoorTrunk_obj",
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "hide": [],
+    "extents": [
+      2.5079,
+      5.1746,
+      6.2857
+    ],
+    "mask": "skins/wheel_rbv_gwagen_mask.png",
+    "skins": {
+      "nm": "skins/nm_gwagen.png",
+      "oc": "skins/oc_gwagen.png"
+    },
+    "stockSize": [
+      2048,
+      2048
+    ]
+  },
+  {
+    "id": "nm_lm002",
+    "name": "LM002",
+    "model": {
+      "file": "RBV_LM002_model.fbx",
+      "mesh": null,
+      "scale": 0.66
+    },
+    "wheel": {
+      "file": "RBV_LM002_wheel.fbx",
+      "mesh": null,
+      "scale": 1,
+      "texture": "skins/wheel_rbv_lm002_wheel.png"
+    },
+    "lightbar": {
+      "file": "RBV_LM002_lightbar.fbx",
+      "mesh": null,
+      "scale": 1,
+      "texture": null
+    },
+    "wheels": [
+      {
+        "name": "FrontLeft",
+        "x": 1.0588,
+        "y": -0.6765,
+        "z": 2.1176,
+        "radius": 0.55
+      },
+      {
+        "name": "FrontRight",
+        "x": -1.0588,
+        "y": -0.6765,
+        "z": 2.1176,
+        "radius": 0.55
+      },
+      {
+        "name": "RearLeft",
+        "x": 1.0588,
+        "y": -0.6765,
+        "z": -1.75,
+        "radius": 0.55
+      },
+      {
+        "name": "RearRight",
+        "x": -1.0588,
+        "y": -0.6765,
+        "z": -1.75,
+        "radius": 0.55
+      }
+    ],
+    "parts": [],
+    "hide": [],
+    "extents": [
+      2.7353,
+      1.8529,
+      6.1176
+    ],
+    "mask": "skins/wheel_rbv_lm002_mask.png",
+    "skins": {
+      "nm": "skins/nm_lm002.png",
+      "oc": "skins/oc_lm002.png"
+    },
+    "stockSize": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "id": "nm_container",
+    "name": "ISO 컨테이너",
+    "model": {
+      "file": "Containers_ISO_merged.fbx",
+      "mesh": "ISO2_body",
+      "scale": 0.1
+    },
+    "wheel": null,
+    "lightbar": null,
+    "wheels": [],
+    "parts": [
+      {
+        "part": "TrunkDoor",
+        "mesh": "ISOdoubleDoorWI",
+        "rotate": null,
+        "offset": null
+      }
+    ],
+    "hide": [],
+    "extents": [
+      2.438,
+      2.591,
+      6.058
+    ],
+    "skins": {
+      "nm": "skins/nm_container.png"
+    },
+    "stockSize": [
+      512,
+      512
+    ]
+  }
+]

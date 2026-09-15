@@ -1,0 +1,247 @@
+{
+  "_설명": [
+    "차량별 미세 조정. vehicles.json은 스크립트에서 자동 생성되므로 여기서 덮어씁니다.",
+    "차량 id는 vehicles.json의 \"id\" 항목으로 확인하세요.",
+    "쓸 수 있는 값:",
+    "  noWheels    : true 면 바퀴를 붙이지 않습니다 (모델에 바퀴가 이미 들어있는 차량)",
+    "  wheelSpread : 앞뒤 바퀴 간격 배수 (1.05 = 5% 넓게)",
+    "  wheelZ      : 바퀴 전체를 앞뒤로 이동 (미터, 스크립트 +z 방향)",
+    "  wheelFront  : 앞바퀴만 이동 (미터)",
+    "  wheelRear   : 뒷바퀴만 이동 (미터)",
+    "  wheelY      : 바퀴 높이 이동 (미터, + = 위로)",
+    "  wheelX      : 좌우 간격 배수",
+    "  wheelScale  : 바퀴 크기 배수",
+    "  flipZ       : true 면 앞뒤 반전",
+    "  wheelFacing : -1 이면 바퀴 안팎을 뒤집습니다",
+    "  hideMesh / showMesh : 숨기거나 강제로 보일 메쉬 이름 목록",
+    "  parts       : 부품별 위치·회전 { \"메쉬이름\": { \"pos\": [x,y,z] 미터, \"rot\": [x,y,z] 도 } }"
+  ],
+  "nm_miata": {
+    "wheelFront": 0.05,
+    "wheelRear": -0.03,
+    "wheelY": 0.69,
+    "wheelScale": 1.18,
+    "flipZ": true
+  },
+  "nm_supra": {
+    "wheelZ": 0.04,
+    "wheelRear": -0.04,
+    "wheelY": 0.76,
+    "wheelX": 1.06,
+    "flipZ": true
+  },
+  "nm_challenger": {
+    "wheelFront": 0.23,
+    "wheelRear": 0.3,
+    "wheelY": 0.73,
+    "wheelScale": 1.1,
+    "wheelX": 1.05,
+    "flipZ": true
+  },
+  "oc_cargo": {
+    "wheelRear": 0.58,
+    "wheelY": 0.8,
+    "wheelScale": 0.74,
+    "wheelX": 0.67,
+    "showMesh": [
+      "RBVCGO_cover",
+      "RBVCGO_trunkdoortwo"
+    ],
+    "hideMesh": [
+      "RBVCGO_tarp",
+      "RBVCGO_frontsparetire"
+    ],
+    "parts": {
+      "RBVCGO_trunkdoortwo": {
+        "rot": [
+          -90,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "oc_laferrari_a": {
+    "wheelZ": 0.06,
+    "wheelFront": -0.15,
+    "wheelRear": -0.14,
+    "flipZ": true
+  },
+  "nm_mustang": {
+    "wheelFront": 0.1,
+    "wheelRear": 0.16,
+    "flipZ": true,
+    "parts": {
+      "Hood_bone": {
+        "rot": [
+          -14.6,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "oc_chiron_a": {
+    "wheelFront": -0.03,
+    "wheelRear": -0.03,
+    "wheelY": 0.04,
+    "flipZ": true
+  },
+  "oc_bushmaster": {
+    "wheelFront": -0.24,
+    "wheelRear": 0.14,
+    "wheelY": 0.83,
+    "wheelScale": 1.07,
+    "flipZ": true,
+    "hideMesh": [
+      "rbvb_bullbar_sas",
+      "rbvb_gascan",
+      "rbvb_mudflaps"
+    ]
+  },
+  "oc_vision_a": {
+    "wheelFront": 0.02,
+    "wheelRear": 0.01,
+    "wheelY": 0.08,
+    "wheelScale": 0.85,
+    "flipZ": true
+  },
+  "nm_samara": {
+    "wheelFront": 0.02,
+    "wheelRear": 0.09,
+    "wheelY": -0.06,
+    "wheelX": 0.95,
+    "flipZ": true,
+    "parts": {
+      "Hood_bone": {
+        "rot": [
+          -11.7,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "nm_stepvan": {
+    "wheelFront": 0.42,
+    "wheelRear": 0.3,
+    "wheelY": 0.04,
+    "wheelScale": 1.46,
+    "wheelX": 1.29,
+    "flipZ": true
+  },
+  "oc_918_a": {
+    "wheelRear": 0.01,
+    "wheelScale": 1.01,
+    "wheelX": 1.04,
+    "flipZ": true
+  },
+  "nm_h1": {
+    "wheelFront": 0.02,
+    "wheelRear": 0.04,
+    "wheelY": 0.18,
+    "wheelScale": 1.14,
+    "wheelX": 1.01,
+    "flipZ": true
+  },
+  "oc_hmmwv": {
+    "wheelFront": -0.14,
+    "wheelRear": 0.03,
+    "wheelY": 0.87,
+    "wheelScale": 1.07,
+    "flipZ": true,
+    "hideMesh": [
+      "RBVHV_bigbullbar",
+      "RBVHV_bigmuffler",
+      "RBVHV_sparetire",
+      "RBVHV_windshield_a",
+      "door_fl_a",
+      "door_rl_a",
+      "door_fr_a",
+      "door_rr_a"
+    ]
+  },
+  "nm_acty": {
+    "wheelFront": 0.08,
+    "wheelRear": 0.06,
+    "wheelY": 0.68,
+    "wheelScale": 1.09,
+    "wheelX": 0.96,
+    "flipZ": true,
+    "offset": [
+      -0.14,
+      0.4,
+      0
+    ],
+    "hideMesh": [
+      "battery_mesh",
+      "spare_mesh",
+      "wheel_mesh"
+    ]
+  },
+  "nm_eclass": {
+    "wheelZ": -0.11,
+    "wheelRear": 0.06,
+    "wheelY": 0.5,
+    "wheelScale": 0.95,
+    "wheelX": 1.03,
+    "flipZ": true
+  },
+  "nm_gwagen": {
+    "wheelZ": -0.22,
+    "wheelFront": 0.16,
+    "wheelRear": 0.22,
+    "wheelY": 0.25,
+    "wheelScale": 1.05,
+    "wheelX": 1.1,
+    "flipZ": true,
+    "wheelFacing": -1
+  },
+  "nm_lm002": {
+    "wheelZ": -0.03,
+    "wheelFront": 0.04,
+    "wheelRear": 0.15,
+    "wheelY": 0.78,
+    "flipZ": true
+  },
+  "nm_camaro": {
+    "wheelZ": -0.14,
+    "wheelFront": 0.16,
+    "wheelRear": 0.11,
+    "wheelY": 0.85,
+    "wheelScale": 1.18,
+    "flipZ": true,
+    "wheelFacing": -1,
+    "hideMesh": [
+      "fl_seat",
+      "fr_seat"
+    ]
+  },
+  "nm_3series": {
+    "wheelFront": -0.02,
+    "wheelRear": 0.07,
+    "wheelY": 0.92,
+    "wheelX": 0.95,
+    "flipZ": true
+  },
+  "nm_container": {
+    "noWheels": true,
+    "showMesh": [
+      "ISOdoubleDoorWI"
+    ],
+    "parts": {
+      "ISOdoubleDoorWI": {
+        "rot": [
+          90,
+          0,
+          0
+        ],
+        "pos": [
+          0,
+          0.04,
+          3.0
+        ]
+      }
+    }
+  }
+}
