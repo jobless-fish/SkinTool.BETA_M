@@ -298,3 +298,6 @@ Skin Tool의 개발 과정은 **단순한 "뷰어 만들기"가 아니라 "다�
 "숨겨진 것을 보이게 만들고, 그것을 조정할 수 있는 권한을 준다."
 
 사용자들도 디버그 패널을 통해 자신의 모델을 직접 미세 조정할 수 있으며, 이는 단순한 "스킨 뷰어"를 넘어 "스킨 조정 도구"로 진화시켰습니다.
+
+
+![Visitors](https://visitor-badge.glitch.me/badge?page_id=jobless-fish.SkinTool.BETA_M)
