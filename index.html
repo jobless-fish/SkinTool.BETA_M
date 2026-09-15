@@ -1,6 +1,33 @@
 <!doctype html>
 <html lang="ko">
 <head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R8XSG7CBC6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R8XSG7CBC6');
+</script>
+<style>
+  #splashScreen {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    background: url('./splash.png') center/cover no-repeat;
+    background-color: #1e1b13;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 0.8s ease;
+  }
+  #splashScreen.fade {
+    opacity: 0;
+    pointer-events: none;
+  }
+</style>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="manifest" href="./manifest.json">
@@ -161,6 +188,8 @@
 </style>
 </head>
 <body>
+
+<div id="splashScreen"></div>
 
 <div id="dropHint">
   <div id="dropHintBox">
@@ -1420,6 +1449,18 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./sw.js').catch(e => console.warn('SW 등록 실패', e));
   });
 }
+</script>
+<script>
+// PWA 4초 스플래시
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    const splash = document.getElementById('splashScreen');
+    if (splash) {
+      splash.classList.add('fade');
+      setTimeout(() => splash.remove(), 800);
+    }
+  }, 4000);
+});
 </script>
 </body>
 </html>
