@@ -300,4 +300,4 @@ Skin Tool의 개발 과정은 **단순한 "뷰어 만들기"가 아니라 "다�
 사용자들도 디버그 패널을 통해 자신의 모델을 직접 미세 조정할 수 있으며, 이는 단순한 "스킨 뷰어"를 넘어 "스킨 조정 도구"로 진화시켰습니다.
 
 
-![Visitors](https://visitor-badge.glitch.me/badge?page_id=jobless-fish.SkinTool.BETA_M)
+![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://jobless-fish.github.io/SkinTool.BETA_M/&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_cut=double)
