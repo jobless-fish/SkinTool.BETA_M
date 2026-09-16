@@ -1473,13 +1473,14 @@ window.addEventListener('load', () => {
 let deferredPrompt;
 const installBtn = document.getElementById('installBtn');
 
-// OS 구분
-const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+// OS 구분 (더 정확한 방법)
+const isIOS = /iPad|iPhone|iPod|Mac OS X/.test(navigator.userAgent) && 
+              !/Android/.test(navigator.userAgent);
 const isAndroid = /Android/.test(navigator.userAgent);
 
 // 브라우저 구분
-const isChrome = /Chrome/.test(navigator.userAgent);
-const isSafari = /Safari/.test(navigator.userAgent) && !/Chrome/.test(navigator.userAgent);
+const isChrome = /Chrome|CriOS/.test(navigator.userAgent);
+const isSafari = /Safari/.test(navigator.userAgent) && !/Chrome|CriOS/.test(navigator.userAgent);
 
 // Android
 if (isAndroid) {
@@ -1514,18 +1515,6 @@ else if (isIOS && isSafari) {
   installBtn.style.display = 'none';
 }
 </script>
-<script>
-// userAgent 확인용 (페이지에 표시)
-console.log('UserAgent:', navigator.userAgent);
-console.log('isIOS:', /iPad|iPhone|iPod/.test(navigator.userAgent));
-console.log('isChrome:', /Chrome/.test(navigator.userAgent));
 
-// 페이지에도 표시
-document.body.insertAdjacentHTML('beforeend', `
-  <div style="position: fixed; bottom: 100px; right: 20px; background: red; color: white; padding: 10px; z-index: 9999; font-size: 12px;">
-    UA: ${navigator.userAgent.substring(0, 50)}...
-  </div>
-`);
-</script>
 </body>
 </html>
