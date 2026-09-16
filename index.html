@@ -1508,7 +1508,7 @@ if (isAndroid) {
 }
 // iOS + Chrome: 버튼 표시 + 공유 기능
 else if (isIOS && isChrome) {
-  installBtn.style.display = 'block';
+  installBtn.style.display = 'none';
   installBtn.addEventListener('click', async () => {
     if (navigator.share) {
       await navigator.share({
