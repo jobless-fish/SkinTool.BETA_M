@@ -15,14 +15,28 @@
     position: fixed;
     inset: 0;
     z-index: 99999;
-    background: url('./splash.png') center/cover no-repeat;
-    background-color: #1e1b13;
+    background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
     opacity: 1;
     transition: opacity 0.8s ease;
   }
+  
+  /* 세로 (기본) */
+  @media (orientation: portrait) {
+    #splashScreen {
+      background: url('./splash.png') center/contain no-repeat #000;
+    }
+  }
+  
+  /* 가로 */
+  @media (orientation: landscape) {
+    #splashScreen {
+      background: url('./splash-landscape.png') center/contain no-repeat #000;
+    }
+  }
+  
   #splashScreen.fade {
     opacity: 0;
     pointer-events: none;
