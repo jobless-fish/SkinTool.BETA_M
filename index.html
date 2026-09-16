@@ -1473,7 +1473,7 @@ window.addEventListener('load', () => {
 let deferredPrompt;
 const installBtn = document.getElementById('installBtn');
 
-// Android: beforeinstallprompt 캡처
+// Android만 버튼 표시
 window.addEventListener('beforeinstallprompt', (e) => {
   e.preventDefault();
   deferredPrompt = e;
@@ -1482,7 +1482,6 @@ window.addEventListener('beforeinstallprompt', (e) => {
 
 installBtn.addEventListener('click', async () => {
   if (deferredPrompt) {
-    // Android
     deferredPrompt.prompt();
     deferredPrompt.userChoice.then((choiceResult) => {
       if (choiceResult.outcome === 'accepted') {
@@ -1490,15 +1489,6 @@ installBtn.addEventListener('click', async () => {
       }
       deferredPrompt = null;
     });
-  } else {
-    // iOS: Share API로 공유 메뉴 띄우기
-    if (navigator.share) {
-      navigator.share({
-        title: 'Skin Tool',
-        text: '스킨툴',
-        url: window.location.href
-      });
-    }
   }
 });
 
