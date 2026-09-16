@@ -1506,9 +1506,18 @@ if (isAndroid) {
     installBtn.style.display = 'none';
   });
 }
-// iOS + Chrome: 버튼 표시
+// iOS + Chrome: 버튼 표시 + 공유 기능
 else if (isIOS && isChrome) {
   installBtn.style.display = 'block';
+  installBtn.addEventListener('click', async () => {
+    if (navigator.share) {
+      await navigator.share({
+        title: 'Skin Tool',
+        text: 'Project Zomboid 차량 스킨 뷰어',
+        url: window.location.href
+      });
+    }
+  });
 }
 // iOS + Safari: 버튼 숨김
 else if (isIOS && isSafari) {
