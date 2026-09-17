@@ -1173,11 +1173,32 @@ if (!window.THREE || !window.FBXLoader) showFatal('3D 라이브러리를 불러�
       }
       g.putImageData(px, 0, 0);
     }
-    c.toBlob(b => {
-      const a = document.createElement('a'); a.href = URL.createObjectURL(b);
-      a.download = name.replace(/\.[^.]+$/, '') + `_${w}x${h}.png`; a.click();
-      setTimeout(() => URL.revokeObjectURL(a.href), 5000);
-      log(`내보냄: ${a.download}` + (img.width !== w || img.height !== h ? ` (${img.width}×${img.height} → ${w}×${h})` : ''));
+    c.toBlob(async (b) => {
+      const filename = name.replace(/\.[^.]+$/, '') + `_${w}x${h}.png`;
+      const sizeNote = (img.width !== w || img.height !== h) ? ` (${img.width}×${img.height} → ${w}×${h})` : '';
+
+      try {
+        const handle = await window.showSaveFilePicker({
+          suggestedName: filename,
+          types: [{
+            description: 'PNG 이미지',
+            accept: { 'image/png': ['.png'] }
+          }]
+        });
+        const writable = await handle.createWritable();
+        await writable.write(b);
+        await writable.close();
+        log(`내보냄: ${handle.name}` + sizeNote);
+      } catch (err) {
+        if (err.name === 'AbortError') return;   // 사용자가 취소
+        // showSaveFilePicker 미지원(사파리·모바일 등) → 기존 방식
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(b);
+        a.download = filename;
+        a.click();
+        setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+        log(`내보냄: ${filename}` + sizeNote);
+      }
     }, 'image/png');
   });
 
